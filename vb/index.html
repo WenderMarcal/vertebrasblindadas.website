@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="../image/png" href="img/favicon.png" />
+<title>Protocolo VB</title>
+<!-- CSS !-->
+<link href="assets/style.css" rel="stylesheet" type="text/css" media="all">
+<!-- CSS !-->
+
+<!-- CSS Bootstrap !-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<!-- CSS Bootstrap !-->	
+	
+<!-- Meta Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '435314651851494');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=435314651851494&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+<!-- GTM Header !-->
+
+</head>
+
+<body>
+	
+<!-- GTM Body !-->
+
+<main class="main" id="main">
+
+<!-- Header !-->
+<header class="header" id="header">
+	<div class="container">
+		<div class="row">
+			<!-- Script de data !-->
+			<label><h1>O último dia para vê-lo é <b><span id="data"></span></b></h1></label>
+			<script>
+				let data = document.getElementById('data');
+				var text = document.createTextNode(RetornaDataHoraAtual());        
+				data.appendChild(text);
+
+				function RetornaDataHoraAtual(){
+					var dNow = new Date();
+					var localdate = dNow.getDate() + '/' + (dNow.getMonth()+1) + '/' + dNow.getFullYear();
+					return localdate;
+				}
+			</script>
+			<!-- Script de data !-->				
+		</div>
+	</div>	
+</header>
+<!-- Header !-->
+	
+<!-- Conteúdo !-->
+<section class="conteudo" id="conteudo">
+	<div class="container">
+		
+		<!-- Headline !-->
+		<div class="row">
+			<div class="col-md-12 col-lg-12 col-sm-12">
+				<img src="img/ultrasecreto.png" width="100%" height="100%" class="ultrasecreto img-fluid">
+				
+				<h1>A FÓRMULA PORTO-RIQUENHA PARA <u>ELIMINAR AS DORES NAS COSTAS</u></h1>
+				
+				<h4>Cientistas do Porto Rico criaram um método para renovar os tecidos das vértebras, com um simples movimento em menos de 1 minuto por dia, as dores nas costas vão desaparecer.</h4>
+				
+				<h2>Para mais informações sobre este método, <br>clique no botão abaixo e assista ao vídeo.</h2>
+				
+				<img src="img/setas-baixo.gif" width="100%" height="100%" class="setas img-fluid">
+				<a href="https://vertebrasblindadas.website/#" class="cta">Clique aqui</a>
+				
+				<h3><span>Atenção:</span> O vídeo ficará disponível por tempo limitado.</h3>
+			</div>
+		</div>
+		<!-- Headline !-->
+		
+	</div>	
+</section>
+<!-- Conteúdo !-->
+	
+<!-- Footer !-->
+<footer class="footer" id="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-lg-12 col-sm-12 text-all">
+            	<div class="termos">
+                	<a href="termos.html">Termos de uso</a>
+					<span> | </span>
+                    <a href="privacidade.html">Políticas de privacidade</a>
+                </div>
+				<p>“Este produto é comercializado com o apoio do Hotmart. A plataforma não realiza um controle <br>
+					editorial prévio dos produtos comercializados, nem valoriza a competência técnica e a experiência dos autores. <br>
+					A existência de um produto e a sua aquisição na plataforma não podem ser consideradas como garantia <br>
+					de qualidade de conteúdo e resultado, em qualquer caso. Ao comprá-lo, o comprador declara que conhece <br>
+					esta informação. Os Termos e Políticas do Hotmart podem ser acessados ​​aqui, antes mesmo de finalizar a compra.<br></p>
+				
+				<p>Este site não é afiliado ao Facebook ou a qualquer entidade do Facebook. <br>
+					Depois de sair do Facebook, não é sua responsabilidade, é responsabilidade do nosso site. <br>
+					Fazemos todos os esforços para indicar e exibir claramente todos os testes de produtos e <br>
+					usar resultados reais. Não vendemos seu e-mail ou qualquer informação a terceiros. <br>
+					Nunca fazemos nenhum tipo de spam.</p>
+			</div>
+		</div>
+	</div>	
+</footer>
+<!-- Footer !-->
+	
+</main>		
+<!-- JS Bootstrap !-->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+<!-- JS Bootstrap !-->	
+</body>
+</html>
